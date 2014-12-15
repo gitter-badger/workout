@@ -1,5 +1,5 @@
 from nose.tools import *
-import workout
+import workout.persontrain
 
 def setup():
 	print "Setup!"
