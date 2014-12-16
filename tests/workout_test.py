@@ -1,11 +1,8 @@
 from nose.tools import *
-import workout.persontrain
+from workout.persontrain import Work
 
-def setup():
-	print "Setup!"
-
-def teardown():
-	print "Teardown!"
-
-def test_basic():
-	print "I Ran!"
+def test_work():
+	hello=Work("hi","bye")
+	assert_equal(hello.tipo,"hi")
+	assert_equal(hello.modo,"bye")
+	assert_equal(hello.miolo,'hi')
