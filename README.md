@@ -2,9 +2,9 @@ Workout Generator
 -------
 
 Programa que gera treinos de academia.
->class Work(object):
-
-	def __init__(self, tipo, modo):
+>classe geradora
+	class Work(object):
+		def __init__(self, tipo, modo):
 		super(Work, self).__init__()
 		self.tipo = tipo
 		self.modo = modo
