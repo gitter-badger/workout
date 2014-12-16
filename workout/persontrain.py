@@ -1,3 +1,5 @@
+from recursos import tabela
+
 class Work(object):
 
 	def __init__(self, tipo, modo):
@@ -13,12 +15,16 @@ class Work(object):
 		ombro=[]
 		perna=[]
 		abdomen=[]
-		
+
 
 def traingen():
 	tipo=raw_input("Qual tipo de treino?(ABC, AB ou A)")
 	modo=raw_input("Acompanhado ou solo?(A ou S)")
+	tabela()
+	print 'treino aqui'
+	tabela()
 
+traingen()
 
 
 

@@ -1,0 +1,2 @@
+def tabela():
+	print "____________"
