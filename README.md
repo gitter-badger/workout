@@ -1,4 +1,4 @@
 workout
 =======
 
-Programa que gera treinos de academia
+Programa que gera treinos de academia.
