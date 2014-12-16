@@ -1,4 +1,8 @@
-workout
+Workout Generator
 =======
 
-<h8>Programa que gera treinos de academia.<h8>
+Programa que gera treinos de academia.
+
+-------
+
+Consulte um profissional antes de iniciar seus treinos.
